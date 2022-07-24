@@ -1,0 +1,42 @@
+.About {
+  aspect-ratio: 960/150;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../../img/wave-haikei_5.svg");
+  display: inline-block;
+}
+.second > img {
+  height: 250px;
+}
+.first {
+  display: inline-block;
+  width: 70%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  margin-left: 30px;
+}
+.second {
+  margin-left: 30px;
+  display: inline-block;
+  height: 100%;
+}
+/*1920:1080*/
+@media only screen and (min-width: 1900px) {
+  .second > img {
+    height: 350px;
+  }
+  .first {
+    margin-left: 30px;
+  }
+  .first > h1 {
+    font-size: 100px;
+  }
+  .first > p {
+    margin-left: 40px;
+    font-size: 50px;
+  }
+}
+/*Laptops*/
