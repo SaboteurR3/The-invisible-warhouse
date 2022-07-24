@@ -104,4 +104,57 @@ textarea.contact-form-text {
     padding: 17px 75px;
   }
 }
-/*Laptops*/
+@media only screen and (max-width: 1200px) {
+  .img {
+    width: 65px;
+    height: 65px;
+  }
+  .Form_contact_us > h1 {
+    font-size: 50px;
+  }
+  .isVisiblee > img {
+    width: 600px;
+    height: 600px;
+    padding-bottom: 250px;
+  }
+  .Contact-form {
+    margin-top: 0;
+    height: 230px;
+  }
+  .contact-form-text {
+    margin: 22px 0;
+  }
+  textarea.contact-form-text {
+    height: 100px;
+  }
+  .contact-form-btn {
+    padding: 17px 75px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .img {
+    width: 65px;
+    height: 65px;
+  }
+  .Form_contact_us > h1 {
+    font-size: 50px;
+  }
+  .isVisiblee > img {
+    width: 600px;
+    height: 600px;
+    padding-bottom: 250px;
+  }
+  .Contact-form {
+    margin-top: 0;
+    height: 230px;
+  }
+  .contact-form-text {
+    margin: 22px 0;
+  }
+  textarea.contact-form-text {
+    height: 100px;
+  }
+  .contact-form-btn {
+    padding: 17px 75px;
+  }
+}

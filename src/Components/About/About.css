@@ -39,4 +39,31 @@
     font-size: 50px;
   }
 }
-/*Laptops*/
+@media only screen and (max-width: 1200px) {
+  .second > img {
+    height: 220px;
+  }
+  .first {
+    margin-left: 10px;
+  }
+  .first > h1 {
+    font-size: 50px;
+  }
+  .first > p {
+    font-size: 36px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .second > img {
+    height: 220px;
+  }
+  .first {
+    margin-left: 10px;
+  }
+  .first > h1 {
+    font-size: 50px;
+  }
+  .first > p {
+    font-size: 36px;
+  }
+}

@@ -193,4 +193,35 @@ h3 {
     align-items: center;
   }
 }
-/*Laptops*/
+@media only screen and (max-width: 1200px) {
+  .bx {
+    height: 600px;
+  }
+  .container_1 {
+    height: 600px;
+  }
+  h3 {
+    color: white;
+    font-size: 50px;
+  }
+  .slider .item img {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .bx {
+    height: 600px;
+  }
+  .container_1 {
+    height: 600px;
+  }
+  h3 {
+    color: white;
+    font-size: 50px;
+  }
+  .slider .item img {
+    width: 200px;
+    height: 200px;
+  }
+}
